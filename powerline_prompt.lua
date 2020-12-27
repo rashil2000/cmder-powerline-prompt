@@ -8,10 +8,10 @@ local promptTypeFolder = "folder"
  -- "smart" to switch in git repo to folder name instead of full path
 local promptTypeSmart = "smart"
 
- -- default is promptTypeFull
+ -- default is promptTypeSmart
  -- Set default value if no value is already set
 if not plc_prompt_type then
-    plc_prompt_type = promptTypeFull
+    plc_prompt_type = promptTypeSmart
 end
 if not plc_prompt_useHomeSymbol then
 	plc_prompt_useHomeSymbol = true

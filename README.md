@@ -5,6 +5,7 @@ It looks like this:
 ![screenshot](screenshot.png)
 
 The prompt has multiple segments:
+- Battery: in green. Shows current battery charge and status (plugged in or not). This is off by default. Also current date and time is shown, whose format can be specified.
 - Folder: in blue. Displays the folder name, or full path. Replaces the user's home folder with a tilde (~).
 - npm or pyenv: in teal. If it detects an npm package, it displays the package name and version number. Or if it detects python files, it displays the current virtual environment name.
 - Git: in green, yellow, red, magenta or cyan. If it detects a Git repo, it displays the branch name and current status. Colors are shown depending that status.
