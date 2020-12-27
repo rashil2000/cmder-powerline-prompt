@@ -87,4 +87,4 @@ local function addAddonSegment()
 end
 
 -- register the filters
-clink.prompt.register_filter(addAddonSegment, 59)
+clink.prompt.register_filter(addAddonSegment, 60)
