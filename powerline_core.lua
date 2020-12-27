@@ -120,7 +120,10 @@ end
 if not plc_git_conflictSymbol then
 	plc_git_conflictSymbol = "!"
 end
-
+-- Version control (e.g. Hg) changes symbol. Used to indicate there's a change.
+if not plc_hg_changesSymbol then
+	plc_hg_changesSymbol = ""
+end
 ---
 -- Adds an arrow symbol to the input text with the correct colors
 -- text {string} input text to which an arrow symbol will be added
